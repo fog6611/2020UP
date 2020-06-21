@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 июн. 2020 г., 18:22:38
+    Author     : fog6611
+*/
+
+header {
+    background: #ececec;
+}
+
+.top-menu {
+    margin: 0;
+    padding: 0;
+    background: inherit;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+}
+
+.exit, .logo {
+    align-self: flex-end;
+    position: relative;
+    display: flex;
+    align-content: center;
+    font-family: devioussans02extrabold,Helvetica Neue,Helvetica,Arial,メイリオ\, 
+        meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.22;
+    letter-spacing: 1.3px;
+    align-items: center;
+    padding: 4px 15px;
+    margin: 0 0 0 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: var(--L9);
+    height: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    height: 70px;
+    font: 14px 'Cuprum', sans-serif;
+    color: #455987;
+    margin: 0 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 10vw;
+}
+
+.mainfield {
+    display: flex;
+    float: left;
+    min-width: 85vw;
+    min-height: 90vh;
+    margin: 10px;
+}
+
+.create {
+    display: flex;
+}
+
+.user, .post {
+    width: 25vw;
+}
+
+.Lable {
+    font-family: devioussans02regular,Helvetica Neue,Helvetica,Arial,メイリオ, 
+        meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: .3px;
+    cursor: text;
+    pointer-events: none;
+    transition: all .25s cubic-bezier(.4,0,.2,1);
+    z-index: 1;
+}

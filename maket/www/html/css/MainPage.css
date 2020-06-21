@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 июн. 2020 г., 19:06:37
+    Author     : fog6611
+*/
+
+header {
+    background: #455987;
+}
+
+.top-menu {
+    margin: 0;
+    padding: 0;
+    background: inherit;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+}
+
+.top-menu div {
+    display: flex;
+    align-content: center;
+    height: 70px;
+    font: 14px 'Cuprum', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #c7c7c7;
+    padding: 0;
+    margin: 0;
+}
+
+.mainbody {
+    padding: 5vw 5vw 10vw 5vw;
+    min-height: 90vh;
+    min-height: 600px;
+    background: #ececec;
+}
+
+.picLine {
+    width: 100%;
+    height: 200px;
+}
+
+.pic {
+    float: left;
+    margin: 5px;
+}
+
+footer {
+    background: #c7c7c7;
+    height: 20vh;
+    max-height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer div {
+    float: left;
+    min-height: 10vh;
+    width: 20vw;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.logIn, .join, .search {
+    position: relative;
+    display: flex;
+    align-content: center;
+    font-family: devioussans02extrabold,Helvetica Neue,Helvetica,Arial,メイリオ\, 
+        meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.22;
+    letter-spacing: 1.3px;
+    display: flex;
+    align-items: center;
+    padding: 4px 15px;
+    margin: 0 0 0 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: var(--L9);
+    height: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search {
+    height: 100%;
+    flex-grow: 1;
+    position: relative;
+}
+
+.HSpace {
+    width: 5vw;
+}
+
+.Typebar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #c7c7c7;
+}
+
+.selectedTypebar{
+    background: #a0a0a0;
+}
+
+.TLElem {
+    font-family: devioussans02regular,Helvetica Neue,Helvetica,Arial,メイリオ\, 
+        meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.22;
+    letter-spacing: 1.3px;
+    height: 56px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 44px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.MHYQB {
+    height: 56px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color: #455987;
+}
+
+._2_hKv {
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+._2HOTE {
+    display: flex;
+    flex-shrink: 0;
+    margin-right: 8px;
+    height: 70px;
+    position: relative;
+}
+
+a, body, div, dl, footer, form, h1, h2, h3, h4, h5, h6, header, html, img, li, 
+    menu, nav,output, p, span, strong, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
+}
+
+.About {
+    margin: 0;
+    font: bold 18pt Trebuchet MS,sans-serif;
+    letter-spacing: -1px;
+}
+
+.Abouttext {
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 200;
+    color: #4f5254;
+    margin: 10px 0;
+}
+
+.UserLogo {
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.userInfo {
+    text-align: center;
+    padding: 15px;
+}
+
+.UserBar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #455987;
+}
+
+.selectedUserBar{
+    background: #8883ff;
+}
+
+.Avatar {
+    padding: 10px
+}
+
+.UBElem {
+    font-family: devioussans02regular,Helvetica Neue,Helvetica,Arial,メイリオ\, 
+        meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.22;
+    letter-spacing: 1.3px;
+    height: 56px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 44px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.MHYQBU {
+    height: 56px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color: #a0a0a0;
+}
+
+.searchresult {
+    position: relative;
+    left: -70px;
+    top: -70px;
+}
